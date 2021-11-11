@@ -1,0 +1,31 @@
+{
+  "kind": "collectionType",
+  "collectionName": "questionsfaqs",
+  "info": {
+    "name": "questionsfaq"
+  },
+  "options": {
+    "increments": true,
+    "timestamps": true,
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "theme_id": {
+      "type": "string",
+      "required": true
+    },
+    "sub_theme_id": {
+      "type": "string",
+      "required": true
+    },
+    "question_id": {
+      "type": "string",
+      "required": true
+    },
+    "answer_id": {
+      "type": "richtext",
+      "required": true
+    }
+  }
+}
